@@ -18,7 +18,7 @@ A toy HTTP server for learning low-level networking, modern C++ and high-perform
 
 | Technology   | Purpose |
 |-------------|---------|
-| **C++23**   | Modern C++ features |
+| **C++2x**   | Modern C++ features |
 | **Boost.Asio** | Asynchronous networking |
 | **Boost.Beast** | HTTP request handling |
 | **CMake** | Build system |
@@ -34,8 +34,17 @@ A toy HTTP server for learning low-level networking, modern C++ and high-perform
 
 ## Roadmap
 
+### Milestone 0: Learning Basics
+- [ ] Read **Boost.Asio** documentation
+    - Currently reading on Overview-Asynchronous Operations 
+- [ ] Read **Boost.Beast** documentation
+- [ ] Understand **TCP/IP** networking
+- [ ] Learn about **HTTP/1.1** protocol
+- [ ] Learn C++ features
+    - [ ] Coroutines
+
 ### Milestone 1: Development Setup & Basic TCP Server
-- [x] Install **C++23, Boost, CMake, vcpkg**
+- [x] Install **Boost, CMake, vcpkg**
 - [ ] Create a basic **asynchronous TCP server**
 
 ### Milestone 2: Implement HTTP/1.1
