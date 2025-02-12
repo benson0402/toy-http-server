@@ -2,6 +2,27 @@
 
 A toy HTTP server for learning low-level networking, modern C++ and high-performance design.
 
+## Installation & Setup
+
+Ensure you have the following installed:
+- C++23 Compiler (GCC 12.3.0+)
+- CMake 3.20+
+- Git
+
+To automatically install dependencies and build the project, run:
+
+```sh
+chmod +x build.sh
+./build.sh
+```
+
+Once built, run:
+
+```sh
+./build/ToyHTTPServer
+```
+
+
 ## Features
 
 - [ ] HTTP/1.1 Support
